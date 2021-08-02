@@ -1,1 +1,1 @@
-web: gunicorn nrassica-distribution_app.wsgi
+web: gunicorn brassica-distribution_app.wsgi
