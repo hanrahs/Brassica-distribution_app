@@ -1,1 +1,1 @@
-web: gunicorn app:brassica-distribution_app
+web: gunicorn app:app
