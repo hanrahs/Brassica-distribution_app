@@ -11,7 +11,7 @@ from dash.dependencies import Input, Output
 
 app = dash.Dash(__name__)
 
-app = app.server
+server = app.server
 
 df = pd.read_csv("data.csv", low_memory=False)
 
