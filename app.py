@@ -1,21 +1,13 @@
 import pandas as pd
-# import plotly.express as px
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-# import geopandas as gpd
-# import plotly.graph_objects as go
-import json
 import dash_leaflet as dl
-
 import dash_leaflet.express as dlx
-# import numpy as np
-# from dash_extensions.javascript import Namespace
 from dash import Dash
 from dash.dependencies import Input, Output
-# import dash_bootstrap_components as dbc
-# import js2py
+
 
 app = dash.Dash(__name__)
 
